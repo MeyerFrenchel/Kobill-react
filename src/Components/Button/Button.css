@@ -1,0 +1,21 @@
+.primary-btn {
+    background: #009999;
+    width: 237px;
+    height: 55px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.fa-chevron-right{
+    background: #FFD200;
+}
+.primary-btn button {
+    width: 42px;
+    height: 42px;
+    background: #FFD200;
+    offset: none;
+    border: none;
+    cursor: pointer;
+}

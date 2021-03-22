@@ -1,0 +1,26 @@
+.dropdown-nav {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    padding: 0 128px;
+    height: 61px;
+    list-style: none;
+    z-index: 5;
+}
+.dropdown-nav li a {
+    color: black;
+    
+}
+.dropdown-nav li  {
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+.hamburger-img {
+    
+    margin-right: 16px;
+}
+#dropdown-list {
+    border: 2px #999 ridge;
+}
+

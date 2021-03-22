@@ -1,0 +1,63 @@
+.NavbarItems {
+    background: #009999;
+    height: 84px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 5;
+}
+
+.search-btn {
+    background: #FFD200;
+    height: 43px;
+    width: 47px;
+    margin-left: -52px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+.search-btn:hover {
+    background: #ffd0008e;
+}
+input {
+    width: 882px;
+    height: 52px;
+    padding-left: 24px;
+    padding-right: 50px;
+    border-radius: 5px;
+    outline-offset: none;
+}
+
+::placeholder {
+    color: #A1A1A1;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    
+  }
+  .fas {
+      color: white;
+  }
+
+  .header-form {
+      position: relative;
+  }
+  .login {
+      font-size: 14px;
+      margin-left: 5px;
+  }
+  .yellow-text {
+      color: #FFD200;
+      font-family: "Montserrat-Regular";
+  }
+  .contulMeu {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    width: 463px;
+  }

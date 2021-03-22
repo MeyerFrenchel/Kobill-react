@@ -1,0 +1,36 @@
+.dropdown-menu {
+    width: 318px;
+    position: absolute;
+    top: 60px;
+    
+    list-style: none;
+    text-align: start;
+    border: 2px #999 ridge;
+    border-top: none;
+}
+
+.dropdown-menu li {
+    
+    cursor: pointer;
+    width: 379px;
+    text-align: center;
+    
+    
+}
+
+.dropdown-menu.clicked {
+    display: none;
+
+}
+.dropdown-link {
+    display: block;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+    border-bottom: 1px grey solid;
+    border-left: none;
+    border-right: none;
+    
+}
